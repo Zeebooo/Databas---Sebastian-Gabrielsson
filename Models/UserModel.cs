@@ -5,9 +5,9 @@ public class UserModel
 	public int UserID { get; set; }
 	public string? Username { get; set; }
 
-	public UserModel()
+	public UserModel(int userid, string? username)
 {
-	UserID = 1;
-	Username = "Sebastian";
+	UserID = userid;
+	Username = username; 
 }
 }
