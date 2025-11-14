@@ -21,7 +21,6 @@
 /Users/sebbe/Desktop/databas/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/sebbe/Desktop/databas/obj/Debug/net9.0/scopedcss/bundle/databas.styles.css
 /Users/sebbe/Desktop/databas/obj/Debug/net9.0/scopedcss/projectbundle/databas.bundle.scp.css
-/Users/sebbe/Desktop/databas/obj/Debug/net9.0/compressed/63ifnwyx8y-b9sayid5wm.gz
 /Users/sebbe/Desktop/databas/obj/Debug/net9.0/compressed/45mtrkpsh7-61n19gt1b8.gz
 /Users/sebbe/Desktop/databas/obj/Debug/net9.0/compressed/ty80djekkf-xtxxf3hu2r.gz
 /Users/sebbe/Desktop/databas/obj/Debug/net9.0/compressed/b38wjs96ot-bqjiyaj88i.gz
@@ -94,3 +93,5 @@
 /Users/sebbe/Desktop/databas/obj/Debug/net9.0/databas.pdb
 /Users/sebbe/Desktop/databas/obj/Debug/net9.0/databas.genruntimeconfig.cache
 /Users/sebbe/Desktop/databas/obj/Debug/net9.0/ref/databas.dll
+/Users/sebbe/Desktop/databas/obj/Debug/net9.0/databas.sourcelink.json
+/Users/sebbe/Desktop/databas/obj/Debug/net9.0/compressed/63ifnwyx8y-b2ktcww86u.gz

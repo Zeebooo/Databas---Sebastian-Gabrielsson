@@ -8,14 +8,14 @@ public class WorkoutEntriesModel
 	public int Weight { get; set; }
 	public int RestTime { get; set; }
 
-	public WorkoutEntriesModel()
+	public WorkoutEntriesModel(int entryid, int workoutid, int exerciseid, int sets, int reps, int weight, int resttime)
 	{
-		EntryID = 1;
-		WorkoutID = 1;
-		ExerciseID = 1;
-		Sets = 4;
-		Reps = 10;
-		Weight = 100;
-		RestTime = 60;
+		EntryID = entryid;
+		WorkoutID = workoutid;
+		ExerciseID = exerciseid;
+		Sets = sets;
+		Reps = reps;
+		Weight = weight;
+		RestTime = resttime;
 	}
 }

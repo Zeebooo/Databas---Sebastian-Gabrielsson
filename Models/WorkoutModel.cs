@@ -7,11 +7,11 @@ public class WorkoutModel
 	public int Duration { get; set; }
 	public int UserID { get; set; }
 
-	public WorkoutModel()
+	public WorkoutModel(int workoutid, int date, int duration, int userid)
 	{
-		WorkoutID = 1;
-		Date = 20240615;
-		Duration = 60;
-		UserID = 1;
+		WorkoutID = workoutid;
+		Date = date;
+		Duration = duration;
+		UserID = userid;
 	}
 }

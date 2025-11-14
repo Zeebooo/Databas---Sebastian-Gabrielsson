@@ -4,10 +4,10 @@ public class ExercisesModel
 	public string? ExerciseName { get; set; }
 	public string? MuscleGroup { get; set; }
 
-	public ExercisesModel()
+	public ExercisesModel(int exerciseid, string exercisename, string musclegroup)
 	{
-		ExerciseID = 1;
-		ExerciseName = "Bench Press";
-		MuscleGroup = "Chest";
+		ExerciseID = exerciseid;
+		ExerciseName = exercisename;
+		MuscleGroup = musclegroup;
 	}
 }

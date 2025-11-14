@@ -29,3 +29,12 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.workout-table{
+	text-align: center;
+}
+
+.workout-table th, .workout-table td{
+	padding: 10px;
+	border: 1px solid black;
+}

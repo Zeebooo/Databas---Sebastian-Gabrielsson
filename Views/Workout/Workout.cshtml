@@ -1,0 +1,20 @@
+@model List<WorkoutModel>;
+
+<div>
+	<h1>Workout Sessions</h1>
+		<table class="workout-table">
+			<tr>
+				<th>ID</th>
+				<th>Date</th>
+				<th>Duration (minutes)</th>
+			</tr>
+			@foreach (var workout in Model)
+			{
+				<tr>
+					<td>@workout.WorkoutID</td>
+					<td>@workout.Date</td>
+					<td>@workout.Duration</td>
+				</tr>
+			}
+		</table>
+</div>
