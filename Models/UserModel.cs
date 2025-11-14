@@ -6,8 +6,8 @@ public class UserModel
 	public string? Username { get; set; }
 
 	public UserModel(int userid, string? username)
-{
-	UserID = userid;
-	Username = username; 
-}
+	{
+		UserID = userid;
+		Username = username; 
+	}
 }

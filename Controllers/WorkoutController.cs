@@ -20,6 +20,8 @@ namespace databas.Controllers
 				Workouts = Workouts.Where(workout => workout.UserID == userid.Value).ToList();
 			}
 
+			ViewBag.UserID = userid;
+			
 			return View(Workouts);
 		}
 	}
