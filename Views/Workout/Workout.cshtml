@@ -1,6 +1,17 @@
 @model List<WorkoutModel>;
 
-<div>
+
+	<form method="get" asp-action="Workout">
+		<label for="userID">Filter by user:</label>
+		<select id="userID" name="userID">
+			<option value="">All Users</option>
+			<option value="1">User 1</option>
+			<option value="2">User 2</option>
+			<option value="3">User 3</option>
+		</select>
+		<button type="submit">Filter</button>
+	</form>
+
 	<h1>Workout Sessions</h1>
 		<table class="workout-table">
 			<tr>
@@ -17,4 +28,3 @@
 				</tr>
 			}
 		</table>
-</div>
